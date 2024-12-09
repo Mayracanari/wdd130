@@ -1,0 +1,178 @@
+:root {
+    --primary-color: #393CF9;
+    --secondary-color: #0077B6;
+    --accent1-color:#00B4D8;
+    --accent2-color: #90E0EF;
+}
+
+
+
+body {
+      font-family: "Roboto", "sans-serif";
+      color: var(--text-color);
+      max-width: 1100px;
+      margin: auto;
+      background-color: var(--white);
+      
+    }
+header {
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    
+
+}
+    
+header .logo img {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 5%;
+
+}  
+
+nav {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 1em;
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+    text-align: center;
+
+}
+
+p{
+    margin-bottom: 1 em;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }  
+    
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+   
+   
+}
+.hero h1 {
+    position: absolute;
+    width: 100%;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(39, 88, 71, 0.5);
+    padding: 10px;
+    text-align:center ;
+
+  
+
+}
+.hero article {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    color: white;
+    background-color: rgba(7, 83, 111, 0.7);
+    padding: 10px;
+    width: 75%;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 10px;
+    width: 150px;
+    height: auto;
+    border: none;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+.hero article p {
+    color: #fff;
+
+}
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+
+
+
+.history img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+section {
+    padding: 2em 0;
+}
+
+section img {
+    margin: 1em;
+    width: 180px;
+    height: auto;
+} 
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.sociallinks {
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sociallinks a {
+    display: grid;
+    margin-right: 1 em;
+}
+
+.sociallinks a img {
+    width: 40px;
+    height: 40px;
+    border: black;
+}
+ 
+
+
+
+    
+
+    
+   
