@@ -5,15 +5,14 @@
     --accent2-color: #90E0EF;
 }
 
-
 body {
       font-family: "Roboto", "sans-serif";
       color: var(--text-color);
       max-width: 1100px;
       margin: auto;
       background-color: var(--white);
-      
- }
+}
+
 header {
     display:grid;
     grid-template-columns: 2fr 3fr;
@@ -22,8 +21,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
-    
-
 }
     
 header .logo img {
@@ -44,9 +41,7 @@ nav a {
     margin-right: 1em;
     color: white;
     text-decoration: none;
-
 }
-
 
 nav a:hover {
     text-decoration: underline;
@@ -56,26 +51,25 @@ h1, h2 {
     color: var(--primary-color);
     margin-bottom: 0.5em;
     text-align: center;
-
 }
 
 p{
     margin-bottom: 1 em;
 }
+
 .hero {
     position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
-  }  
+}  
     
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
-   
-   
+    height: auto; 
 }
+
 .hero h1 {
     position: absolute;
     width: 100%;
@@ -86,10 +80,8 @@ p{
     background-color: rgba(39, 88, 71, 0.5);
     padding: 10px;
     text-align:center ;
-
-  
-
 }
+
 .hero article {
     position: absolute;
     bottom: 40%;
@@ -112,8 +104,8 @@ p{
 
 .hero article p {
     color: #fff;
-
 }
+
 /* History Section Specific */
 
 .history {
@@ -148,7 +140,6 @@ p{
     object-fit: cover;
     border-radius: 5px;
 }
-
 
 section .adventures {
     display: grid;  
