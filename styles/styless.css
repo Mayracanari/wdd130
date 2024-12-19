@@ -12,13 +12,16 @@ nav a {
 h1 {
     color:darkblue;
 }
-
-img {
+main {
+    max-width: 840px;
+}
+main img {
     width: 150;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+   
 }
 
 p {
@@ -32,6 +35,8 @@ main {
 main img {
     width: 150px;
     height: auto;
+    position: center;
+
 }
 aside {
     width: 20rem;
